@@ -1,4 +1,4 @@
-FROM bookwork-slim
+FROM debian:bookwork-slim
 
 # Add required tools
 RUN <<EOF
