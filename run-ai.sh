@@ -40,6 +40,4 @@ else
   ARGS+=("--start-date" "${START_DATE}" "--end-date" "${END_DATE}")
 fi
 
-
-
 echo poetry run python "${ARGS[@]}"

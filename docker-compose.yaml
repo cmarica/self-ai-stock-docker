@@ -2,7 +2,7 @@ services:
   ai-hedge-fund:
     image: <registry>:<tag>
     restart: always
-    ports:
+    environment:
       # For running LLMs hosted by anthropic (claude-3-5-sonnet, claude-3-opus, claude-3-5-haiku)
       # Get your Anthropic API key from https://anthropic.com/
       - ANTHROPIC_API_KEY=your-anthropic-api-key
