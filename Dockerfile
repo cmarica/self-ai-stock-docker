@@ -1,4 +1,4 @@
-FROM debian:bookwork-slim
+FROM debian:debian:bookworm-slim
 
 # Add required tools
 RUN <<EOF
